@@ -1,13 +1,17 @@
 <?php get_header(); ?>
 <div id="content">
-    <div class="category-page">
+    <div class="breadcrumbs">
         <div class="container">
+            <i class="fa fa-home"></i>   
             <?php
             if ( function_exists('yoast_breadcrumb') ) {
-            yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+                yoast_breadcrumb();
             }
             ?>
-            <div class="content-category-page">
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container">
                 <div class="row">
                     <?php if (have_posts()) :?>
                     <?php while (have_posts()) : the_post(); ?>
@@ -20,7 +24,6 @@
                     </div>
                     <?php endif; ?>
                 </div>
-            </div>
             <?php post_pagination(); ?>
             <div class="paganation">
                 <ul class="pagination modal-1">
