@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 <div id="content">
-    <?php get_template_part('header-content');?>
     <div class="category-page">
         <div class="container">
             <?php

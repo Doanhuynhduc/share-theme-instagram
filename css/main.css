@@ -67,7 +67,7 @@ header .navigation_link {
     font-size: 18px;
 }
 
-#content .logo_content img{
+.header_content .logo_content img{
     border-radius: 50%;
     width: 150px;
     height: 150px;

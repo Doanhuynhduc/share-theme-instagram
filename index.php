@@ -1,11 +1,6 @@
-<?php
-/*
-Template name: Trang chủ
-*/
-?>
+
 <?php get_header(); ?>
 <div id="content">
-    <?php get_template_part('header-content');?>
     <div class="blog_tin_tuc">
         <div class="container">
             <div class="content-blog-box">

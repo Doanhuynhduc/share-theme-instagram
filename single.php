@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <?php setpostview($post->ID) ?>
 <div id="content">
-    <?php get_template_part('header-content');?>
     <div class="single-page">
         <div class="container">
             <?php
